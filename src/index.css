@@ -1,0 +1,37 @@
+body {
+    background: url(background.jpg) no-repeat center fixed;
+}
+
+#text-input{
+    background-color: transparent;
+    color: white;
+}
+
+#quest-type{
+    color: black;
+    font-family:  'Times New Roman', 'Open Sans', bold;
+    font-size: 15px;
+
+}
+
+#quest-type:hover{
+    color: black;
+    font-family:  'Times New Roman', 'Open Sans', bold;
+    font-size: 15px;
+
+}
+
+#MDBInput-button-label label {
+    color: #ffffff;
+    width: 100%;
+    align-self: center;
+    padding-top: 2%;
+    font-family: 'Times New Roman', 'Open Sans', bold;
+    align-self: center;
+    float-defer-page: last;
+}
+
+#MDBInput-text-label label {
+    color: white;
+    align-self: center;
+}
