@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import {MDBIcon} from "mdbreact";
 import JSON from '../data/questionnaire';
 import logo from '../assets/logo.png'
-import "../styles/Header.css";
+import "../styles/header.css";
 
 class Header extends Component {
     render() {
