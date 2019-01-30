@@ -9,8 +9,8 @@ class Header extends Component {
         return (
             <div className={"container-fluid"}>
             <div id={'header-content'} className={"row"}>
-                <div id={'logo'} className={"col-4"}>
-                    <a id={'clark-logo'} className={'animated 2 bounce slow'} href={'https://www.clark.de/de'}
+                <div id={'logo'} className={"col-4 animated 2 bounce slow"}>
+                    <a id={'clark-logo'} className={''} href={'https://www.clark.de/de'}
                        target={'_blank'}> <img src={logo} alt={'CLΛRk Germany'}/></a>
                     <p id={'slogan'} className={'animated 2 bounceInLeft slow'}> Versicherungen so einfach wie noch nie</p>
                 </div>
