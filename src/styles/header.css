@@ -46,7 +46,7 @@
 #header-content h1{
     color:  #ffffff;
     horiz-align: center;
-    font: normal 36px  "Open Sans", bold;
+    font: 36px  "pro";
     margin: 0;
     text-shadow: 5px 5px 10px rgb(9, 9, 9);
 }
@@ -68,3 +68,4 @@
     font: normal 20px 'Open Sans', bold;
     text-shadow: 5px 5px 10px rgb(9, 9, 9);
 }
+

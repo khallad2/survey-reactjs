@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {MDBBtn, MDBCol, MDBContainer, MDBIcon, MDBRow, MDBProgress} from "mdbreact";
+import {MDBBtn, MDBCol, MDBContainer, MDBIcon, MDBProgress, MDBRow} from "mdbreact";
 import SingleQuestion from './SingleQuestion';
 import JSON from '../data/questionnaire';
 import '../styles/question-board.css';
@@ -56,7 +56,7 @@ class QuestionBoard extends Component {
      * Get Data from json to be assigned to the state in [questionsListModel]
      **/
     getQuestionsList() {
-        let questions = JSON.map((questionnaire, index) => {
+        let questions = JSON.map(questionnaire => {
             return questionnaire['questionnaire']['questions']
         });
         return questions[0];
@@ -95,12 +95,11 @@ class QuestionBoard extends Component {
                                 )
                             })}
                             <div className="flex-center">
-                                {this.state.formActivePanel1 ===  this.state.questionsListModel.length &&
+
+                                {this.state.formActivePanel1 === this.state.questionsListModel.length &&
                                 (<MDBCol md="12">
-                                    <h3 className=" font-weight-bold pl-0 my-4 flex-center "><strong>Finished</strong>
-                                    </h3>
-                                    {/*<i class="fas fa-heart primary-color" id={'finish-heart'} className={'animated bounceIn '}></i>*/}
-                                    <h2 className="text-center font-weight-bold my-4">Thank you!</h2>
+                                    <i class="fa fa-10x fa-smile-beam" id={'thanks'}></i>
+                                    <h2 className="text-center my-4" id={'thanks-msg'}>Thank you so much!</h2>
                                     <MDBBtn color="danger" rounded
                                             className="float-left  danger-color start-button"
                                             onClick={this.handleNextPrevClick(1)(this.state.questionsListModel.length - 1)}>previous</MDBBtn>

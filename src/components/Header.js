@@ -14,7 +14,7 @@ class Header extends Component {
                        target={'_blank'}> <img src={logo} alt={'CLΛRk Germany'}/></a>
                     <p id={'slogan'} className={'animated 2 bounceInLeft slow'}> Versicherungen so einfach wie noch nie</p>
                 </div>
-                <div id={'quest-name'} >
+                <div  >
                 {JSON.map((questionnaire, index) => {
                     return <h1 key={index}>{questionnaire['questionnaire'].name}</h1>
                 })}
