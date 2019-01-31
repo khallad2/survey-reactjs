@@ -96,10 +96,10 @@ class QuestionBoard extends Component {
                             })}
                             <div className="flex-center">
 
-                                {this.state.formActivePanel1 === this.state.questionsListModel.length &&
+                                {this.state.formActivePanel1 === 1 &&
                                 (<MDBCol md="12">
                                     <i class="fa fa-10x fa-smile-beam" id={'thanks'}></i>
-                                    <h2 className="text-center my-4" id={'thanks-msg'}>Thank you so much!</h2>
+                                    <h2 className="text-center my-4" id={'thanks-msg'}>You Rock <i className="fas fa-bolt mdb-gallery-view-icon"></i></h2>
                                     <MDBBtn color="danger" rounded
                                             className="float-left  danger-color start-button"
                                             onClick={this.handleNextPrevClick(1)(this.state.questionsListModel.length - 1)}>previous</MDBBtn>
