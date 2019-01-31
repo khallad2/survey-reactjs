@@ -8,15 +8,16 @@ const FooterPage = () => {
             <MDBContainer fluid className="text-center text-md-left">
                 <MDBRow>
                     <MDBCol md="4">
-                        <h5 className="title">CLΛRk Insurance</h5>
-                        <h5 className={'animated 2 bounceInLeft slow'}>
-                            Wir schaffen eine Welt, in der Menschen Versicherungen lieben
-                        </h5>
+
                     </MDBCol>
                 </MDBRow>
             </MDBContainer>
             <div className="footer-copyright text-center py-3">
                 <MDBContainer fluid>
+                    <h5>CLΛRK</h5>
+                    <h5>
+                        Wir schaffen eine Welt, in der Menschen Versicherungen lieben
+                    </h5>
                     <a href="https://www.clark.de/de"> &copy; {new Date().getFullYear()} Copyright: CLΛRk </a>
                 </MDBContainer>
             </div>

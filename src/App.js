@@ -70,7 +70,7 @@ class App extends Component {
                               })}
                           </div>
                           <MDBCol sm="8" className="text-center">
-                              <button className="btn-floating purple-gradient start-button animated 2 heartBeat delay-5s slower"
+                              <button className="btn-floating purple-gradient start-button animated 2 heartBeat delay-4s slow"
                                       onClick={this.displayQuestion}>
                                   Ready to give feedback <i className="fas fa-bolt"></i>
                               </button>
