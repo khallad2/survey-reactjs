@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 import {MDBIcon} from "mdbreact";
 import JSON from '../data/questionnaire';
-import logo from '../assets/logo.png'
 import "../styles/header.css";
 
 class Header extends Component {
@@ -9,9 +8,9 @@ class Header extends Component {
         return (
             <div className={"container-fluid"}>
             <div id={'header-content'} className={"row"}>
-                <div id={'logo'} className={"col-4 animated 2 bounce slow"}>
-                    <a id={'clark-logo'} className={''} href={'https://www.clark.de/de'}
-                       target={'_blank'}> <img src={logo} alt={'CLΛRk Germany'}/></a>
+                <div className={"col-4 animated 2 bounce slow"}>
+                    <a href={'https://www.clark.de/de'}
+                       target={'_blank'}> <h2> CLΛRK </h2></a>
                     <p id={'slogan'} className={'animated 2 bounceInLeft slow'}> Versicherungen so einfach wie noch nie</p>
                 </div>
                 <div  >

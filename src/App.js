@@ -64,9 +64,9 @@ class App extends Component {
                   <MDBContainer fluid id={'full-length-header'}>
                       <MDBRow center style={{ height: "83vh" }}>
                           <Header />
-                          <div id={'desc'} className={'animated zoomIn slower delay-2s'}>
+                          <div className={'animated zoomIn slower delay-2s'}>
                               {JSON.map((questionnaire, index) => {
-                                  return <h3 id={'desc'} key={index}>{questionnaire['questionnaire'].description}</h3>
+                                  return <h2 className={'desc'} key={index}>{questionnaire['questionnaire'].description}</h2>
                               })}
                           </div>
                           <MDBCol sm="8" className="text-center">

@@ -1,5 +1,5 @@
 #header-content {
-    background-color: #17203D;
+    background-color: #202B31;
     opacity: 0.8;
     padding: 8px 50px;
     margin-bottom: 1%;
@@ -16,7 +16,7 @@
     text-align: right;
     color: white;
     padding-top: 2%;
-    font: normal 20px 'Times New Roman', "Open Sans", bold;
+    font: normal 20px 'Source Code Pro', bold;
 }
 
 #about-us a{
@@ -38,7 +38,7 @@
 
 #header-content h3{
     color:  #ffffff;
-    font: normal 26px 'Times New Roman', "Open Sans", bold;
+    font: normal 26px 'Source Code Pro', bold;
     margin: 0;
     text-shadow: 5px 5px 10px rgb(9, 9, 9);
 }
@@ -46,14 +46,16 @@
 #header-content h1{
     color:  #ffffff;
     horiz-align: center;
-    font: 36px  "pro";
+    font: 36px  "Source Code Pro";
     margin: 0;
     text-shadow: 5px 5px 10px rgb(9, 9, 9);
 }
 
 #header-content h3 span{
-    color:  #5383d3;
+    color: #e2e1e6;
+
 }
+
 
 #header-hr{
     height: 9px;
@@ -65,7 +67,7 @@
 #slogan{
     color: white;
     background-color: transparent;
-    font: normal 20px 'Open Sans', bold;
+    font: normal 20px 'Source Code Pro', bold;
     text-shadow: 5px 5px 10px rgb(9, 9, 9);
 }
 
