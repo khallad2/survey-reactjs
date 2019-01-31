@@ -5,6 +5,7 @@ import '../styles/question-board.css';
 class SingleQuestion extends Component {
 
     state = {
+        description: '',
         formActivePanel1: 0,
         formActivePanel1Changed: false,
         animationSwap: false,
@@ -34,7 +35,8 @@ class SingleQuestion extends Component {
 
     /**
      * Handles data change in Radio Buttons
-     * @param event
+     * @param choiceIndex
+     * @returns {function(*)}
      */
     handleRadioChangeAndCheckboxChange = (choiceIndex) => (event)=> {
         let data = this.state.selectedQuestion;

@@ -4,7 +4,7 @@ import QuestionBoard from "./components/QuestionBoard";
 import JSON from './data/questionnaire';
 import Header from "./components/Header";
 import FooterPage from './components/Footer'
-import './styles/home.css';
+import './styles/App.css';
 import "./index.css";
 
 class App extends Component {
@@ -64,13 +64,13 @@ class App extends Component {
                   <MDBContainer fluid id={'full-length-header'}>
                       <MDBRow center style={{ height: "83vh" }}>
                           <Header />
-                          <div id={'desc'} className={'animated zoomIn slower delay-1s'}>
+                          <div id={'desc'} className={'animated zoomIn slower delay-2s'}>
                               {JSON.map((questionnaire, index) => {
                                   return <h3 id={'desc'} key={index}>{questionnaire['questionnaire'].description}</h3>
                               })}
                           </div>
                           <MDBCol sm="8" className="text-center">
-                              <button className="btn-floating purple-gradient start-button"
+                              <button className="btn-floating purple-gradient start-button animated 2 heartBeat delay-5s slower"
                                       onClick={this.displayQuestion}>
                                   Ready to give feedback <i className="fas fa-bolt"></i>
                               </button>
@@ -93,8 +93,8 @@ class App extends Component {
                       </div>
               </MDBCol>
           </MDBRow>
+                  <FooterPage />
       </MDBContainer>
-          <FooterPage />
               </div>
           )}
     }
