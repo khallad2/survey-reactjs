@@ -1,6 +1,6 @@
 # Survey with (Reactjs/Jest/MDB)
 Simple Survey 
-[![N|Solid](surveyPhoto.PNG? fit=600%2C315&ssl=1)]()
+[![N|Solid](surveyPhoto.png)]()
 
 ## Getting Started
 There are few easy steps:
