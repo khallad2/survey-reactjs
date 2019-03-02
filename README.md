@@ -11,8 +11,5 @@ There are few easy steps:
 - run test-units using `npm test`
 - enjoy!
 
-## Something Missing?
-If something went wrong please contact me 
-khallad_3@hotmail.com
-(+20)011-526-000-10 
+
 
