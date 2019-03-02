@@ -14,11 +14,11 @@ const FooterPage = () => {
             </MDBContainer>
             <div className="footer-copyright text-center py-3">
                 <MDBContainer fluid>
-                    <h5>CLΛRK</h5>
+                    <h5>Khallad</h5>
                     <h5>
-                        Wir schaffen eine Welt, in der Menschen Versicherungen lieben
+                        If you interested add a star to the repo
                     </h5>
-                    <a href="https://www.clark.de/de"> &copy; {new Date().getFullYear()} Copyright: CLΛRk </a>
+                    <a href="https://khallad2.github.io/khallad.github.io/"> &copy; {new Date().getFullYear()} Copyright: Khallad Sharaf El-Din </a>
                 </MDBContainer>
             </div>
         </MDBFooter>

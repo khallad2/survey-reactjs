@@ -9,9 +9,9 @@ class Header extends Component {
             <div className={"container-fluid"}>
             <div id={'header-content'} className={"row"}>
                 <div className={"col-4 animated 2 bounce slow"}>
-                    <a href={'https://www.clark.de/de'}
-                       target={'_blank'}> <h2> CLΛRK </h2></a>
-                    <p id={'slogan'} className={'animated 2 bounceInLeft slow'}> Versicherungen so einfach wie noch nie</p>
+                    <a href={'https://khallad2.github.io/khallad.github.io/'}
+                       target={'_blank'}> <h2> Survey </h2></a>
+                    <p id={'slogan'} className={'animated 2 bounceInLeft slow'}> Better Development</p>
                 </div>
                 <div  >
                 {JSON.map((questionnaire, index) => {
@@ -19,9 +19,9 @@ class Header extends Component {
                 })}
                 </div>
                 <div id={'about-us'} className={"animated 2 flash delay-2s"}>
-                    <a href={'https://www.clark.de/de'} target={'_blank'}>Über uns <i className="fab fa-angellist"></i></a>
-                    <a href={'https://www.clark.de/de'}> (+06)915-322-933-9 <i className="fas fa-phone"></i></a>
-                    <a href={'https://www.facebook.com/ClarkGermany/'}> <MDBIcon fab icon="facebook-f" /></a>
+                    <a href={'https://khallad2.github.io/khallad.github.io/'} target={'_blank'}>About me<i className="fab fa-angellist"></i></a>
+                    <a href={'https://khallad2.github.io/khallad.github.io/'}> (+20)11-526-000-10 <i className="fas fa-phone"></i></a>
+                    <a href={'https://khallad2.github.io/khallad.github.io/'}> <MDBIcon fab icon="facebook-f" /></a>
                 </div>
                 <hr id={'header-hr'} />
             </div>
