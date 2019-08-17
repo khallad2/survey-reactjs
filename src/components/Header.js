@@ -20,7 +20,7 @@ class Header extends Component {
                 </div>
                 <div id={'about-us'} className={"animated 2 flash delay-2s"}>
                     <a href={'https://khallad2.github.io/khallad.github.io/'} target={'_blank'}>About me<i className="fab fa-angellist"></i></a>
-                    <a href={'https://khallad2.github.io/khallad.github.io/'}> (+20)11-526-000-10 <i className="fas fa-phone"></i></a>
+                    <a href={'https://khallad2.github.io/khallad.github.io/'}> (+49)1520-3953-497 <i className="fas fa-phone"></i></a>
                     <a href={'https://khallad2.github.io/khallad.github.io/'}> <MDBIcon fab icon="facebook-f" /></a>
                 </div>
                 <hr id={'header-hr'} />
