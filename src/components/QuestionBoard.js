@@ -103,7 +103,7 @@ class QuestionBoard extends Component {
                                     <MDBBtn color="danger" rounded
                                             className="float-left  danger-color start-button"
                                             onClick={this.handleNextPrevClick(1)(this.state.questionsListModel.length - 1)}>previous</MDBBtn>
-                                    <MDBBtn color="success" type={'submit'} rounded className="float-right start-button"
+                                    <MDBBtn color="success" type={'button'} rounded className="float-right start-button"
                                             onClick={this.handleSubmission}>submit</MDBBtn>
                                 </MDBCol>)}
                             </div>
